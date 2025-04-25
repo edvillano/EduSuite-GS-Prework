@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge ATENEO  Edusuite K12",
+  "Type": "App",
+  "Id": "985gCUjUekKDyYo7RBe5uA",
+  "Reference": "CSHGtrUFN0ievs-qqeGFJA/985gCUjUekKDyYo7RBe5uA",
+  "Created": "2025-04-17T07:52:14.2150678Z",
+  "Updated": "2025-04-17T07:52:14.2150678Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

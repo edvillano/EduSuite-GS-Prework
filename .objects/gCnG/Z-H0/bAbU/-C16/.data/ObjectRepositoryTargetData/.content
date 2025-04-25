@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="A7_fl4yjGU6t-i4n5W0cHw" Reference="CSHGtrUFN0ievs-qqeGFJA/-C16quWeu06SIB1vnPVZMQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="admu-ahs-uat.edusuite.asia/k12/payments-verification" CVScreenId="2a09a789-9844-4d84-9714-aa9f84c10ef3" CvElementArea="593, 121, 19, 18" CvTextArea="435, 123, 140, 14" CvTextArgument="S.Y. 2025 - 2026 (Next)" CvType="ArrowButton" DesignTimeRectangle="436, 120, 177, 20" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;webctrl tag='SELECT' visibleinnertext='S.Y.*' /&gt;" FuzzyAccuracy="0.51" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='minimal ng-untouched ng-pristine ng-valid' aaname='' /&gt;" Guid="6a2c3404-0517-45e4-94fb-946e0d7010cc" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ATENEO | Edusuite K12' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Visible" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="5d6f9f1bdd1ab1b67cb1eea429ac5157.png" xmlns="">0fJVhvER73Eu_3brKVA_0XQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

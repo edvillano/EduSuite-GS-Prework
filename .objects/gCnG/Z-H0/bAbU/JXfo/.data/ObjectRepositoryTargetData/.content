@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vo16ZUT4OEqDJswLdSOyAQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ags-uat.edusuite.asia/payments-verification" CVScreenId="43199309-10cf-4f53-be4a-0a9a10d4cdb8" DesignTimeRectangle="414, 185, 142, 50" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='depositSlipTable' tag='TABLE' /&gt;&lt;webctrl parentid='depositSlipTable' idx='15' /&gt;" FuzzySelectorArgument="&lt;webctrl id='depositSlipTable' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='text-center ng-star-inserted' aaname=' 2024 - 2025 ' check:innerText='2024 - 2025' /&gt;" Guid="961a4fd4-83f7-4b9a-b16d-82d370ee2ebb" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ATENEO | Edusuite K12' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="39151dd4c9426f197bcf73e0dc1c90fd.png" xmlns="">0xVEB9FvOLUu3lbFUXzSjMg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

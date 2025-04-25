@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xXz2VLw7ZE24WEIQp01_1Q" Reference="CSHGtrUFN0ievs-qqeGFJA/r6IUUDV-206KKMkdV5XEHQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ags-uat.edusuite.asia/payments/2169cbef-25fa-44a7-aa0a-1b3c815c6e1a" DesignTimeRectangle="734, 618, 1142, 202" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='DIV' innertext='Mode of Payment* ' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class='ng-star-inserted' aaname='' /&gt;" Guid="b7bd22fe-8511-4731-ab31-2c72d1c532a7" ImageBase64="" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ATENEO | Edusuite K12' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Visible">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="a4b6632f-59a4-4168-abff-807585c21076" CvTextArea="1606, 570, 110, 12" CvTextArgument="Net total amount:" CvType="Text" DesignTimeRectangle="734, 557, 992, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='text-right' aaname=' Net total amount: ' check:innerText='Net total amount:' /&gt;" Guid="55f3707d-1222-4165-a471-a180205e8864" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7337fbed80f9d48376de813449f5dc9e.png" xmlns="">0Y0w5zMSNFUuELn29Fm8cKQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

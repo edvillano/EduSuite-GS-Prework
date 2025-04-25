@@ -1,0 +1,33 @@
+{
+  "DisplayName": "Edusuite K12",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_ConfigFilePath",
+      "DisplayName": "in_ConfigFilePath",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "C:\\Users\\IBSI-REli\\Documents\\UiPath\\Cash Receipting Config Files\\Cash Receipting Config File.xlsx",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_userid",
+      "DisplayName": "in_userid",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

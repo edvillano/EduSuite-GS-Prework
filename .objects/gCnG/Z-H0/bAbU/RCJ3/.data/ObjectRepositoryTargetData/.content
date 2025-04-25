@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jsH7ImqOWEu-H1LWOyhJ8A" Reference="CSHGtrUFN0ievs-qqeGFJA/RCJ3nnophUSmFBzs6Oeddw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ags-uat.edusuite.asia/payments/0e390cdf-cb45-441a-a5a3-2475ab736a94" DesignTimeRectangle="414, 152, 300, 864" DesignTimeScaleFactor="1" ElementType="List" FullSelectorArgument="&lt;webctrl tag='UL' innertext='*Grade*' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='UL' innertext='*Grade*' type='' class='' aaname='' /&gt;" Guid="ae671a2b-1b9b-4749-8f14-8ca44a3606b6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ATENEO | Edusuite K12' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Visible" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="0062c5886c1106200436cd57530c824b.png" xmlns="">0pn-kURviYEes8qqeNvb_4A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="X_oYu_1HaEWz0ufZNVDaog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ags-uat.edusuite.asia/payments" DesignTimeRectangle="425, 143, 70, 16" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl class='selectable-meta' tag='DIV' visibleinnertext='8240614' type='' aaname='8240614' check:text='8240614' /&gt;" Guid="2e0ede92-871b-4131-ae44-91b04be2067e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ATENEO | Edusuite K12' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a1e530dce3c14e0efa7d14c498e840a5.png" xmlns="">0Z8M6mJllLEmecvOqV3kBFw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

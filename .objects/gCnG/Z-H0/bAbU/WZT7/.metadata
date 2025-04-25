@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mode of Payment×GRADE 1…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "WZT7CENHHECgvA2KX18PUA",
+  "Reference": "CSHGtrUFN0ievs-qqeGFJA/WZT7CENHHECgvA2KX18PUA",
+  "ParentRef": "CSHGtrUFN0ievs-qqeGFJA/bAbUEl5DOky4VRznJmBjPQ",
+  "Created": "2025-04-04T12:11:12.9277682Z",
+  "Updated": "2025-04-04T12:11:12.9277682Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
