@@ -1,0 +1,4 @@
+Student Number,School Year,Payment Mode,Purpose of Payment,Date of Payment,Amount,Remarks,Transaction Number,Bank Name,Bank Branch,Check Number,Issuing Bank,Card Number,Signatory in Letter,Date to Pay
+8250384, ,ONLINE_GATEWAY,TUITION,04/15/2025,50000, ,4200394,MBTC, , , , , , 
+8250384, ,ONLINE_GATEWAY,TUITION,04/15/2025,51774.15, ,4200395,MBTC, , , , , , 
+8250384,2025,ONLINE_GATEWAY,TUITION,04/15/2025,52774.15, ,4200396,MBTC, , , , , , 

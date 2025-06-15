@@ -1,0 +1,7 @@
+﻿Student Number,School Year,Payment Mode,Purpose of Payment,Date of Payment,Amount,Remarks,Transaction Number,Bank Name,Bank Branch,Check Number,Issuing Bank,Card Number,Signatory in Letter,Date to Pay,RPA Remarks,RPA Status,Student Name,Grade
+8240355,2024,ONLINE_GATEWAY,TUITION,04/15/2025,52774.15,,4200383,MBTC,,,,,,,Student has no assessment,Exception: Student has no Balance,"ABARQUEZ, Lorenzo Jacobo Geraldez",1
+4160564,2024,ONLINE_GATEWAY,TUITION,04/15/2025,52774.15,,4200384,MBTC,,,,,,,Student has no assessment,Exception: Student has no Balance,"ABASTILLAS, Jose Alonzo Tirol",6
+4180337,2024,ONLINE_GATEWAY,TUITION,04/15/2025,600,,4200388,BDO,,,,,,,Student has no assessment,Exception: Student has no Balance,"ABELLA, Francis Xavier Gabriel",6
+8250384,2024,ONLINE_GATEWAY,TUITION,04/15/2025,50000,,4200394,MBTC,,,,,,,Student Payment not enough for Reg,Exception: Payment not enough for Reg,"Malahito, Erynn Saige Villalon",1
+8250384,2024,ONLINE_GATEWAY,TUITION,04/15/2025,51774.15,,4200395,MBTC,,,,,,,Student Payment not enough for Reg,Exception: Payment not enough for Reg,"Malahito, Erynn Saige Villalon",1
+8250384,2025,ONLINE_GATEWAY,TUITION,04/15/2025,52774.15,,4200396,MBTC,,,,,,,Identified as for tuition,,"Malahito, Erynn Saige Villalon",1

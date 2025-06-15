@@ -1,0 +1,14 @@
+﻿{
+  "Name": "View List(2)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Eo3VgqAQdEe0Ug7XLbEKJw",
+  "Reference": "CSHGtrUFN0ievs-qqeGFJA/Eo3VgqAQdEe0Ug7XLbEKJw",
+  "ParentRef": "CSHGtrUFN0ievs-qqeGFJA/h-enhPran0uQWCti-hlJag",
+  "Created": "2025-05-16T07:20:30.4457325Z",
+  "Updated": "2025-05-16T07:20:30.4457325Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

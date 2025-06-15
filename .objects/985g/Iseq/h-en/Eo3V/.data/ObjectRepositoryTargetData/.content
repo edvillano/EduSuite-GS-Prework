@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pspdTq2fRk2FkahQVotJZQ" Reference="CSHGtrUFN0ievs-qqeGFJA/Eo3VgqAQdEe0Ug7XLbEKJw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ags-uat.edusuite.asia/payments-verification" CVScreenId="836fee95-6030-45d7-8263-3f7f1c5dd0cf" DesignTimeRectangle="1110, 279, 78, 32" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' View List ' tag='A' /&gt;" Guid="8fe97600-ecdb-429e-9bbe-599c47eacc8b" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ATENEO | Edusuite K12' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="836fee95-6030-45d7-8263-3f7f1c5dd0cf" CvTextArea="602, 332, 235, 12" CvTextArgument="9 transactions will not be uploaded. i" CvType="Text" DesignTimeRectangle="598, 279, 507, 32" FuzzySelectorArgument="&lt;webctrl type='' class='col-8 py-1' tag='DIV' aaname=' transactions will not be uploaded. ' check:innerText='9 transactions will not be uploaded.' /&gt;" Guid="8fb5d5df-5a5f-4af4-8512-13b1a46e87be" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e209be890f58f5a3294e85d9039271ac.png" xmlns="">0IIeK0e_YTE-0bfOwv0Rwyw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

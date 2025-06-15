@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="k0ve55sLUE-gzG8CNbEtWg" Reference="CSHGtrUFN0ievs-qqeGFJA/Hw6b3RBxj0mwgZunj2okrw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ags-uat.edusuite.asia/payments-verification" CVScreenId="b2ef4905-a50f-4b1a-bc12-70796a228cec" CvTextArea="1119, 364, 59, 13" CvTextArgument="View List" CvType="Text" DesignTimeRectangle="1110, 356, 78, 32" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' View List ' idx='2' tag='A' /&gt;" FuzzyAccuracy="0.45" Guid="b275e058-9f14-4e63-881b-7741c0710b3e" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ATENEO | Edusuite K12' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b2ef4905-a50f-4b1a-bc12-70796a228cec" CvTextArea="602, 364, 490, 12" CvTextArgument="19 transactions will be tagged as exceptions and will need further correction. i" CvType="Text" DesignTimeRectangle="598, 356, 507, 32" FuzzySelectorArgument="&lt;webctrl type='' class='col-8 py-1' tag='DIV' aaname='*transactions will be tagged as exceptions and will need further correction*' check:innerText='19 transactions will be tagged as exceptions and will need further correction.' /&gt;" Guid="9261982a-72e4-4114-a007-d386146b6521" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3b515dbc7ffb87858fed0aaeeb95de0c.png" xmlns="">0hA4MtS6bdUGqrbxU5MUEyg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

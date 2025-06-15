@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge ATENEO  Edusuite K12(5)",
+  "Type": "Screen",
+  "Id": "LqRXmCV0L0qHKCyqrN7yzg",
+  "Reference": "CSHGtrUFN0ievs-qqeGFJA/LqRXmCV0L0qHKCyqrN7yzg",
+  "ParentRef": "CSHGtrUFN0ievs-qqeGFJA/IseqVWhI20ulFt7yT1Ou5g",
+  "Created": "2025-05-21T07:38:47.5382996Z",
+  "Updated": "2025-05-21T07:38:47.5382996Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

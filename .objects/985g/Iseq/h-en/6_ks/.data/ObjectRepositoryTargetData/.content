@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4TdUIcpQpkee8zoMV2Uvww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://ags-uat.edusuite.asia/payments-verification" DesignTimeRectangle="578, 208, 772, 288" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl parentid='importPreviewContents' tag='TABLE' /&gt;" Guid="d338d627-5a0e-41c0-ba68-d6d9d52613e1" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ATENEO | Edusuite K12' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8c9ac42c99f8b24d60b3cf670885eba3.png" xmlns="">0zaPqLLuJrUmU2anvU3Lahw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractData</x:String>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='STUDENT' ReferenceIdx='0' Name='STUDENT'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='GRADE LEVEL- TRACK' ReferenceIdx='1' Name='GRADE LEVEL- TRACK'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='TRANSACTION NUMBER' ReferenceIdx='2' Name='TRANSACTION NUMBER'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='PAYMENT' ReferenceIdx='3' Name='PAYMENT'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='DATE OF PAYMENT' ReferenceIdx='4' Name='DATE OF PAYMENT'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='PURPOSE OF PAYMENT' ReferenceIdx='5' Name='PURPOSE OF PAYMENT'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='UPLOAD REMARKS' ReferenceIdx='6' Name='UPLOAD REMARKS'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataNextLink' /&gt;
+&lt;/Table&gt;</p:InArgument>
+    <TargetAnchorable x:Key="NextLinkTarget" BrowserURL="ags-uat.edusuite.asia/payments-verification" CVScreenId="70e68fa2-0446-48e3-89e2-5e3597d38e40" CvElementArea="1033, 447, 33, 37" CvTextArea="1044, 461, 9, 9" CvTextArgument="&gt;&gt;" CvType="Button" DesignTimeRectangle="1032, 447, 33, 37" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='»' class='ng-star-inserted' css-selector='body&amp;gt;ngb-modal-window&amp;gt;div&amp;gt;div&amp;gt;es-modal&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;ngb-pagination&amp;gt;ul&amp;gt;li&amp;gt;a&amp;gt;span' parentid='style-overrides' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='»' class='ng-star-inserted' type='' parentid='style-overrides' tag='SPAN' check:innerText='»' /&gt;" Guid="0b87ecc1-186f-46e0-b848-ec55bc4aedb7" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ATENEO | Edusuite K12' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="70e68fa2-0446-48e3-89e2-5e3597d38e40" CvElementArea="1033, 447, 33, 37" CvTextArea="1044, 461, 9, 9" CvTextArgument="&gt;&gt;" CvType="Button" DesignTimeRectangle="1033, 448, 32, 35" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-label='Next' css-selector='body&amp;gt;ngb-modal-window&amp;gt;div&amp;gt;div&amp;gt;es-modal&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;ngb-pagination&amp;gt;ul&amp;gt;li&amp;gt;a' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Next' type='' tag='A' class='page-link' aaname='»' check:innerText='»' /&gt;" Guid="efbe7a58-6b1c-414b-ac09-ca479d9effeb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

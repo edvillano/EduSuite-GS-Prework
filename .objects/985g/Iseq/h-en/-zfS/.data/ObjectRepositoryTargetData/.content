@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DQmWIgATHUaHC5FD2sYIGA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ags-uat.edusuite.asia/payments-verification" CVScreenId="babdf1ab-90c4-4c82-9eff-1f8321637d97" CvElementArea="1106, 350, 87, 40" CvTextArea="1119, 362, 59, 13" CvTextArgument="View List" CvType="Button" DesignTimeRectangle="1110, 354, 78, 32" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' View List ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' View List ' tag='A' type='' class='btn btn-link ng-star-inserted' check:innerText='View List' /&gt;" Guid="a861b335-f043-4379-9a88-7e3d76ba9aec" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ATENEO | Edusuite K12' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f369d8fd9679cc515dd6981085a621e0.png" xmlns="">0CUArzxz6jUONoLvqFejh-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HYcYgSJYW0aYtR78HfEJIg" Reference="CSHGtrUFN0ievs-qqeGFJA/84YGcPvO7ka-u4HafArZjA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="ags-uat.edusuite.asia/payments-verification" CVScreenId="fce10700-8e7a-4674-be3e-b4760b9c69fe" CvTextArea="1119, 362, 59, 13" CvTextArgument="View List" CvType="Text" DesignTimeRectangle="1110, 309, 78, 32" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' View List ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' View List ' tag='A' type='' class='btn btn-link ng-star-inserted' check:innerText='View List' /&gt;" Guid="33ac6c53-23cb-4f10-9269-031b76e09fc1" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ATENEO | Edusuite K12' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8abea9ec9a2077c43d58602941de5206.png" xmlns="">09VUJOe5EyEmpUBznQiiNpQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

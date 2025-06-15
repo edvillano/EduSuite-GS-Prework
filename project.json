@@ -1,11 +1,13 @@
 {
-  "name": "Edusuite K12",
+  "name": "Edusuite GS Prework Input File",
   "projectId": "faa84a96-304e-4411-89c1-41505657483a",
   "description": "Edit Unit report\r\nInvestigate payment for ",
-  "main": "Edusuite GS.xaml",
+  "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.25.1-preview]",
+    "UiPath.GSuite.Activities": "[3.1.10-preview]",
     "UiPath.IntegrationService.Activities": "[1.14.0]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.1.10-preview]",
     "UiPath.System.Activities": "[25.2.1]",
     "UiPath.UIAutomation.Activities": "[25.2.1-preview]"
   },
@@ -13,7 +15,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "25.0.161.0",
-  "projectVersion": "1.0.1-alpha.2",
+  "projectVersion": "1.0.1-alpha.7",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -48,8 +50,14 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Edusuite GS.xaml",
-      "uniqueId": "3d5d10a6-9760-42fc-ad5d-a75321530d83",
+      "filePath": "Main.xaml",
+      "uniqueId": "eb5fd0cb-5d0e-4492-986d-cbffef2edc54",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "NonEnrollment.xaml",
+      "uniqueId": "bf7595c0-cebf-4d02-a592-7cb45eec4fab",
       "input": [],
       "output": []
     }
