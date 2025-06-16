@@ -138,13 +138,13 @@
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ReturnedChecksStudent" sap:VirtualizedContainerService.HintSize="1247,2645" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ReturnedChecksStudent" sap:VirtualizedContainerService.HintSize="1270,2707" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Returned Checks Process" sap:VirtualizedContainerService.HintSize="576,2622" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Returned Checks Process" sap:VirtualizedContainerService.HintSize="576,2684" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="RetRange" />
         <Variable x:TypeArguments="sd:DataTable" Name="dt_URL" />
@@ -166,7 +166,7 @@
           <InArgument x:TypeArguments="x:String">[in_RetRange]</InArgument>
         </Assign.Value>
       </Assign>
-      <uga:ForEachSheetConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" Length="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="853d2386-7e30-4700-b166-67e6a742e722" DisplayName="For Each Sheet in Spreadsheet" sap:VirtualizedContainerService.HintSize="542,1304" sap2010:WorkflowViewState.IdRef="ForEachSheetConnections_4" ItemSelectionMode="UrlOrId" ManualEntrySpreadsheetId="[in_RetCheckURL]" UseConnectionService="True">
+      <uga:ForEachSheetConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" Length="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="853d2386-7e30-4700-b166-67e6a742e722" DisplayName="For Each Sheet in Spreadsheet" sap:VirtualizedContainerService.HintSize="542,1366" sap2010:WorkflowViewState.IdRef="ForEachSheetConnections_4" ItemSelectionMode="UrlOrId" ManualEntrySpreadsheetId="[in_RetCheckURL]" UseConnectionService="True">
         <uga:ForEachSheetConnections.Body>
           <ActivityAction x:TypeArguments="x:String, x:Int32">
             <ActivityAction.Argument1>
@@ -175,15 +175,15 @@
             <ActivityAction.Argument2>
               <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItemIndex" />
             </ActivityAction.Argument2>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="540,1143" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="540,1174" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <If Condition="[System.Text.RegularExpressions.Regex.IsMatch(CurrentItem, &quot;^\d{4}\s*-\s*\d{4}$&quot;)]" sap:VirtualizedContainerService.HintSize="506,1083" sap2010:WorkflowViewState.IdRef="If_1">
+              <If Condition="[System.Text.RegularExpressions.Regex.IsMatch(CurrentItem, &quot;^\d{4}\s*-\s*\d{4}$&quot;)]" sap:VirtualizedContainerService.HintSize="506,1114" sap2010:WorkflowViewState.IdRef="If_1">
                 <If.Then>
-                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="504,865" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="504,896" sap2010:WorkflowViewState.IdRef="Sequence_5">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="dt_retchecks" />
                       <Variable x:TypeArguments="sd:DataTable" Name="dt_temp" />
@@ -193,7 +193,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uga:ReadRangeConnections x:TypeArguments="sd:DataTable" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ColumnNames="{x:Array Type=x:String}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" RangeInformation="{x:Null}" RangeMetadata="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" ConnectionId="853d2386-7e30-4700-b166-67e6a742e722" DisplayName="Read Range" HasHeaders="True" sap:VirtualizedContainerService.HintSize="470,257" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_6" ItemSelectionMode="UrlOrId" ManualEntrySpreadsheetId="[in_RetCheckURL]" Range="[CurrentItem+&quot;!&quot;+RetRange]" ReadAs="Values" Result="[dt_temp]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+                    <uga:ReadRangeConnections x:TypeArguments="sd:DataTable" BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ColumnNames="{x:Array Type=x:String}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" RangeInformation="{x:Null}" RangeMetadata="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" ConnectionId="853d2386-7e30-4700-b166-67e6a742e722" DisplayName="Read Range" HasHeaders="True" sap:VirtualizedContainerService.HintSize="470,288" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_6" ItemSelectionMode="UrlOrId" ManualEntrySpreadsheetId="[in_RetCheckURL]" Range="[CurrentItem+&quot;!&quot;+RetRange]" ReadAs="Values" Result="[dt_temp]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
                       <uga:ReadRangeConnections.FileIdBackup>
                         <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID0" StoredValue="UrlOrId">
                           <usau:BackupSlot.BackupValues>
