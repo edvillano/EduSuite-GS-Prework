@@ -131,7 +131,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="TEXT" sap:VirtualizedContainerService.HintSize="1265,24889" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TEXT" sap:VirtualizedContainerService.HintSize="1287,778.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="AGSOutput" />
       <Variable x:TypeArguments="x:Boolean" Name="AssmentExist" />
@@ -146,7 +146,29 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="970,18911" sap2010:WorkflowViewState.IdRef="Sequence_48">
+    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A'" sap:VirtualizedContainerService.HintSize="450,139" sap2010:WorkflowViewState.IdRef="Click_52" KeyModifiers="None" MouseButton="BTN_LEFT">
+      <ui:Click.CursorPosition>
+        <ui:CursorPosition Position="Center">
+          <ui:CursorPosition.OffsetX>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:CursorPosition.OffsetX>
+          <ui:CursorPosition.OffsetY>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:CursorPosition.OffsetY>
+        </ui:CursorPosition>
+      </ui:Click.CursorPosition>
+      <ui:Click.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e03d569c-acdc-4a12-8212-5fa05163263a" InformativeScreenshot="d6586cdf3f069c1da77b174706b224aa" Selector="&lt;html app='msedge.exe' title='ATENEO | Edusuite K12' /&gt;&lt;webctrl aaname='View Assessment' class='link' idx='2' tag='A' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ui:Click.Target>
+    </ui:Click>
+    <Sequence sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_48">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="SecondLevelException" />
         <Variable x:TypeArguments="sd:DataTable" Name="FirstLevelException" />
@@ -154,8 +176,8 @@
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge ATENEO  Edusuite K12(4)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="936,5706" sap2010:WorkflowViewState.IdRef="NApplicationCard_15" InteractionMode="DebuggerApi" ScopeGuid="eee78f5a-ca6f-4c75-97d2-05af6c82124c" Version="V2">
@@ -2925,28 +2947,28 @@
         </ui:CommentOut.Body>
       </ui:CommentOut>
     </Sequence>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="970,2545" sap2010:WorkflowViewState.IdRef="CommentOut_14">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_14">
       <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="554,2434" sap2010:WorkflowViewState.IdRef="Sequence_52">
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="554,2436" sap2010:WorkflowViewState.IdRef="Sequence_52">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence sap:VirtualizedContainerService.HintSize="520,2374" sap2010:WorkflowViewState.IdRef="Sequence_40">
+          <Sequence sap:VirtualizedContainerService.HintSize="520,2376" sap2010:WorkflowViewState.IdRef="Sequence_40">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge ATENEO  Edusuite K12(4)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,2291" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" InteractionMode="DebuggerApi" ScopeGuid="eee78f5a-ca6f-4c75-97d2-05af6c82124c" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge ATENEO  Edusuite K12(4)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,2293" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" InteractionMode="DebuggerApi" ScopeGuid="eee78f5a-ca6f-4c75-97d2-05af6c82124c" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="UpLoad get remarks and Exception List" sap:VirtualizedContainerService.HintSize="452,2051" sap2010:WorkflowViewState.IdRef="Sequence_41">
+                  <Sequence DisplayName="UpLoad get remarks and Exception List" sap:VirtualizedContainerService.HintSize="452,2053" sap2010:WorkflowViewState.IdRef="Sequence_41">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="sd:DataTable" Name="FirstLevelException" />
                       <Variable x:TypeArguments="x:Boolean" Name="Tier1Exceps" />
@@ -3160,16 +3182,22 @@
           </Sequence>
         </Sequence>
       </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out Balance test checker - gumagana naman " sap:VirtualizedContainerService.HintSize="970,259" sap2010:WorkflowViewState.IdRef="CommentOut_13">
+    <ui:CommentOut DisplayName="Comment Out Balance test checker - gumagana naman " sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_13">
       <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,108" sap2010:WorkflowViewState.IdRef="Sequence_39">
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="619,3250" sap2010:WorkflowViewState.IdRef="Sequence_39">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="Balance test checker - gumagana naman " sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_31">
+          <Sequence DisplayName="Balance test checker - gumagana naman " sap:VirtualizedContainerService.HintSize="585,3190" sap2010:WorkflowViewState.IdRef="Sequence_31">
             <Sequence.Variables>
               <Variable x:TypeArguments="sc:IEnumerable" Name="Sections" />
               <Variable x:TypeArguments="scg:List(x:String)" Name="Results" />
@@ -3405,11 +3433,11 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="970,749" sap2010:WorkflowViewState.IdRef="CommentOut_11">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_11">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="502,598" sap2010:WorkflowViewState.IdRef="Sequence_28">
           <sap:WorkflowViewStateService.ViewState>
@@ -3461,11 +3489,11 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="970,2240" sap2010:WorkflowViewState.IdRef="CommentOut_12">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_12">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="572,2129" sap2010:WorkflowViewState.IdRef="Sequence_30">
           <sap:WorkflowViewStateService.ViewState>
@@ -3577,20 +3605,20 @@
       </ui:CommentOut.Body>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="608,57" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_7">
       <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,222" sap2010:WorkflowViewState.IdRef="Sequence_21">
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="552,2397" sap2010:WorkflowViewState.IdRef="Sequence_21">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT'" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="SelectItem_1" Item="All transactions">
+          <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT'" sap:VirtualizedContainerService.HintSize="518,187" sap2010:WorkflowViewState.IdRef="SelectItem_1" Item="All transactions">
             <ui:SelectItem.Items>
               <scg:List x:TypeArguments="x:String" Capacity="4">
                 <x:String>Current transaction</x:String>
@@ -3615,7 +3643,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:SelectItem>
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge ATENEO  Edusuite K12(3)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="2c4c828a-e5b9-4731-9d61-3692b3b46e85" Version="V2">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge ATENEO  Edusuite K12(3)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,1172" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="2c4c828a-e5b9-4731-9d61-3692b3b46e85" Version="V2">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
@@ -3671,7 +3699,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </uix:NApplicationCard>
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge ATENEO  Edusuite K12(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" ScopeGuid="c721d8c5-a77b-45d7-a604-b3e175775a91" Version="V2">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge ATENEO  Edusuite K12(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,978" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" ScopeGuid="c721d8c5-a77b-45d7-a604-b3e175775a91" Version="V2">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
@@ -3804,19 +3832,19 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="608,57" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_2">
       <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,108" sap2010:WorkflowViewState.IdRef="Sequence_12">
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="502,548" sap2010:WorkflowViewState.IdRef="Sequence_12">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="Get AGS Unit Report" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_11">
+          <Sequence DisplayName="Get AGS Unit Report" sap:VirtualizedContainerService.HintSize="468,488" sap2010:WorkflowViewState.IdRef="Sequence_11">
             <Sequence.Variables>
               <Variable x:TypeArguments="s:String[]" Name="files" />
               <Variable x:TypeArguments="x:String" Name="targetfile" />
@@ -3850,19 +3878,19 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="608,48" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="CommentOut_1">
       <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="468,399" sap2010:WorkflowViewState.IdRef="Sequence_10">
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="608,2913" sap2010:WorkflowViewState.IdRef="Sequence_10">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:ReadCsvFile PathResource="{x:Null}" DataTable="[AGSOutput]" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read CSV- Read Report" FilePath="C:\Users\emcra\Downloads\AGS_Report_20250325.csv" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1">
+          <ui:ReadCsvFile PathResource="{x:Null}" DataTable="[AGSOutput]" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read CSV- Read Report" FilePath="C:\Users\emcra\Downloads\AGS_Report_20250325.csv" sap:VirtualizedContainerService.HintSize="574,186" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3870,7 +3898,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:ReadCsvFile>
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge ATENEO  Edusuite K12(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="b95b6f4f-b43d-4366-9e6b-18f23ac0efb3" Version="V2">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge ATENEO  Edusuite K12(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="574,2442" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="b95b6f4f-b43d-4366-9e6b-18f23ac0efb3" Version="V2">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
@@ -4020,13 +4048,13 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </uix:NApplicationCard>
-          <ui:AppendWriteCsvFile PathResource="{x:Null}" AddHeaders="True" CsvAction="Write" DataTable="[AGSOutput]" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Write CSV" FilePath="C:\Users\emcra\Downloads\UiPath\UiPath\Edusuite K12\Test.csv" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="AppendWriteCsvFile_1" ShouldQuote="True" />
+          <ui:AppendWriteCsvFile PathResource="{x:Null}" AddHeaders="True" CsvAction="Write" DataTable="[AGSOutput]" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Write CSV" FilePath="C:\Users\emcra\Downloads\UiPath\UiPath\Edusuite K12\Test.csv" sap:VirtualizedContainerService.HintSize="574,225" sap2010:WorkflowViewState.IdRef="AppendWriteCsvFile_1" ShouldQuote="True" />
         </Sequence>
       </ui:CommentOut.Body>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>

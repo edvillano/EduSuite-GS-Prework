@@ -1,0 +1,4 @@
+Student Number,School Year,Payment Mode,Purpose of Payment,Date of Payment,Amount,Remarks,Transaction Number,Bank Name,Bank Branch,Check Number,Issuing Bank,Card Number,Signatory in Letter,Date to Pay
+4210446,2023,ONLINE_GATEWAY,ADDITIONAL_BOOKS,04/15/2025,2000, ,4200380,MBTC, , , , , , 
+8250091,2022,ONLINE_GATEWAY,CONFIRMATION_FEE,04/15/2025,2000, ,4200382,MBTC, , , , , , 
+8250091,2024,ONLINE_GATEWAY,TUITION,04/15/2025,10000, ,4200383,MBTC, , , , , , 

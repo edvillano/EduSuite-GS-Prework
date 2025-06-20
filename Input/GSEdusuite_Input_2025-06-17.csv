@@ -1,6 +1,232 @@
 ﻿Student Number,School Year,Payment Mode,Purpose of Payment,Date of Payment,Amount,Remarks,Transaction Number,Bank Name,Bank Branch,Check Number,Issuing Bank,Card Number,Signatory in Letter,Date to Pay,In Returned Checks,Double Payment,RPA Remarks,RPA Status,Student Name,Grade,Upload Exception Category,Upload Exception Remarks
-4160555,2022,ONLINE_GATEWAY,TUITION,04/15/2025,25246.95,,4200389,BDO,,,,,,,,,"Multiple matches found: Summaries | 2021 - 2022 | Balance: 158,200.00,Summaries | 2022 - 2023 | Balance: 183,147.65 — please validate",For Validation,"MANABAT, Ryan Chase V",6,Level 2 Exception,"Payment is 151,600.70 below the amount due"
-4160555,2021,ONLINE_GATEWAY,TUITION,04/15/2025,23892.05,,4200390,BDO,,,,,,,,,"Multiple matches found: Summaries | 2021 - 2022 | Balance: 158,200.00,Summaries | 2022 - 2023 | Balance: 183,147.65 — please validate",For Validation,"MANABAT, Ryan Chase V",6,Level 2 Exception,"Payment is 113,307.95 below the amount due"
-4160555,2021,ONLINE_GATEWAY,TUITION,04/15/2025,22892.05,,4200391,BDO,,,,,,,,,"Multiple matches found: Summaries | 2021 - 2022 | Balance: 158,200.00,Summaries | 2022 - 2023 | Balance: 183,147.65 — please validate",For Validation,"MANABAT, Ryan Chase V",6,Level 2 Exception,"Payment is 114,307.95 below the amount due"
-4180728,2024,ONLINE_GATEWAY,TUITION,04/15/2025,49100.00,,4200392,BDO,,,,,,,,,"Multiple matches found: Summaries | 2022 - 2023 | Balance: 250.00,Summaries | 2024 - 2025 | Balance: 49,100.00 — please validate",For Validation,"CANO, Calix Pio Bonzon",6,,
-4180728,2024,ONLINE_GATEWAY,TUITION,04/15/2025,30000.00,,4200393,BDO,,,,,,,,,"Multiple matches found: Summaries | 2022 - 2023 | Balance: 250.00,Summaries | 2024 - 2025 | Balance: 49,100.00 — please validate",For Validation,"CANO, Calix Pio Bonzon",6,Level 2 Exception,"Payment is 19,100.00 below the amount due"
+23070267,2025,ONLINE_GATEWAY,ADDITIONAL_BOOKS,06/03/2025,4782.0," ",2307026720250603205225,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070505,2025,ONLINE_GATEWAY,TUITION,06/03/2025,130816.7," ",2207050520250603203716,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070365,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65286.5," ",2307036520250603203320,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070238,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250001.2," ",2207023820250603203220,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070356,2025,ONLINE_GATEWAY,TUITION,06/03/2025,36663.5," ",2407035620250603202824,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070288,2025,ONLINE_GATEWAY,TUITION,06/03/2025,66006.4," ",2407028820250603201132,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070246,2025,ONLINE_GATEWAY,TUITION,06/03/2025,237080.75," ",2407024620250603201026,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070455,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238171.75," ",2307045520250603200319,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070075,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",2307007520250603195427,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070462,2025,ONLINE_GATEWAY,TUITION,06/03/2025,130816.7," ",2207046220250603193730,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070370,2025,ONLINE_GATEWAY,TUITION,06/03/2025,35703.5," ",2407037020250603191458,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070378,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124885.0," ",2407037820250603185343,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25070690,2025,ONLINE_GATEWAY,ADDITIONAL_BOOKS,06/03/2025,6438.0," ",2507069020250603184947,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070504,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65046.4," ",2407050420250603184201,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070697,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124885.0," ",2407069720250603184117,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070390,2024,ONLINE_GATEWAY,TUITION,06/03/2025,193200.0," ",2307039020250603183712,OG_VMC," "," "," "," "," "," ",,Y,,,,,,
+23080020,2025,ONLINE_GATEWAY,TUITION,06/03/2025,38182.9," ",2308002020250603182825,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070719,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407071920250603182244,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070632,2025,ONLINE_GATEWAY,TUITION,06/03/2025,5973.0," ",2407063220250603181617,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070796,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407079620250603180300,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070037,2025,ONLINE_GATEWAY,TUITION,06/03/2025,67763.85," ",2207003720250603175318,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24090008,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",2409000820250603170620,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070183,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124885.0," ",2407018320250603164517,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070055,2025,ONLINE_GATEWAY,TUITION,06/03/2025,35046.4," ",24070055,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070320,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65046.4," ",2407032020250603163840,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070532,2025,ONLINE_GATEWAY,TUITION,06/03/2025,69003.85," ",2207053220250603162527,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070118,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",2207011820250603162514,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070049,2025,ONLINE_GATEWAY,TUITION,06/03/2025,5013.0," ",2407004920250603162147,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070580,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",2307058020250603161606,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070157,2025,ONLINE_GATEWAY,TUITION,06/03/2025,35129.25," ",2307015720250603161347,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24090024,2025,ONLINE_GATEWAY,TUITION,06/03/2025,32189.9," ",2409002420250603161019,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070351,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",2307035120250603160339,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25070783,2025,ONLINE_GATEWAY,TUITION,06/03/2025,115106.9," ",2507078320250603160134,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070331,2024,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2407033120250603155848,OG_VMC," "," "," "," "," "," ",,Y,,,,,,
+25080004,2025,ONLINE_GATEWAY,CONFIRMATION_FEE,06/03/2025,10000.0," ",2508000420250603154139,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+22070552,2025,ONLINE_GATEWAY,TUITION,06/03/2025,245066.2," ",2207055220250603153625,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070422,2024,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2407042220250603153722,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,"Payment is 155,600.00 below the amount due"
+23080019,2025,ONLINE_GATEWAY,TUITION,06/03/2025,130637.7," ",2308001920250603153320,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070195,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238228.75," ",2307019520250603151847,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070110,2025,ONLINE_GATEWAY,TUITION,06/03/2025,67972.85," ",2207011020250603150657,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070245,2025,ONLINE_GATEWAY,TUITION,06/03/2025,66006.4," ",2407024520250603145905,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070619,2024,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2407061920250603145823,OG_VMC," "," "," "," "," "," ",,Y,,,,,,
+24070781,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407078120250603145744,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070008,2025,ONLINE_GATEWAY,TUITION,06/03/2025,38182.9," ",2207000820250603144707,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070326,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",2207032620250603145125,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070367,2025,ONLINE_GATEWAY,TUITION,06/03/2025,249180.2," ",2207036720250603145033,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070619,2024,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2407061920250603144509,OG_VMC," "," "," "," "," "," ",,Y,,,,,,
+24070214,2025,ONLINE_GATEWAY,TUITION,06/03/2025,66006.4," ",2407021420250603144054,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070101,2025,ONLINE_GATEWAY,TUITION,06/03/2025,237579.75," ",2307010120250603143812,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070052,2025,ONLINE_GATEWAY,TUITION,06/03/2025,69003.85," ",2207005220250603143312,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070230,2025,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2307023020250603142923,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070432,2025,ONLINE_GATEWAY,TUITION,06/03/2025,130816.7," ",2207043220250603235312,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070543,2025,ONLINE_GATEWAY,TUITION,06/03/2025,36663.5," ",2407054320250603235227,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070381,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",2307038120250603233637,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+21070574,2024,ONLINE_GATEWAY,TUITION,06/03/2025,30000.0," ",21070574,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,"Payment is 113,900.00 below the amount due"
+22070273,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",2207027320250603232709,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070209,2024,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2407020920250603232620,OG_VMC," "," "," "," "," "," ",,Y,,,,,,
+24070299,2024,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2407029920250603231258,OG_VMC," "," "," "," "," "," ",,Y,,,,,,
+24070524,2025,ONLINE_GATEWAY,TUITION,06/03/2025,66006.4," ",2407052420250603231207,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070376,2025,ONLINE_GATEWAY,TUITION,06/03/2025,69003.85," ",2207037620250603230610,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070488,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",2307048820250603224500,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070129,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",2307012920250603224521,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070156,2025,ONLINE_GATEWAY,TUITION,06/03/2025,69003.85," ",2207015620250603223233,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070109,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407010920250603222017,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070062,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238148.75," ",2407006220250603221028,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25070919,2025,ONLINE_GATEWAY,TUITION,06/03/2025,115106.9," ",2507091920250603220854,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+23070391,2025,ONLINE_GATEWAY,TUITION,06/03/2025,64273.5," ",2307039120250603220741,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25070103,2025,ONLINE_GATEWAY,TUITION,06/03/2025,229040.65," ",2507010320250603220451,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070237,2025,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2307023720250603220306,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070067,2024,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2407006720250603215139,OG_VMC," "," "," "," "," "," ",,Y,,,,,,
+23070377,2025,ONLINE_GATEWAY,TUITION,06/03/2025,33713.25," ",2307037720250603214949,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070217,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124603.25," ",2307021720250603214358,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070371,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",2307037120250603213727,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070528,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",2307052820250603213031,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070200,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",2307020020250603211603,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070163,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407016320250603211202,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25080015,2025,ONLINE_GATEWAY,CONFIRMATION_FEE,06/03/2025,10000.0," ",2508001520250603210726,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+24070096,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238609.75," ",2407009620250603210215,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070315,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",2307031520250603205849,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25080035,2025,ONLINE_GATEWAY,TUITION,06/03/2025,224053.75," ",2508003520250603142840,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+24070607,2025,ONLINE_GATEWAY,TUITION,06/03/2025,36164.5," ",2407060720250603140226,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25070446,2025,ONLINE_GATEWAY,TUITION,06/03/2025,229040.65," ",2507044620250603134259,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25080044,2025,ONLINE_GATEWAY,TUITION,06/03/2025,109830.0," ",2508004420250603134023,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+22070068,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",2207006820250603133156,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070142,2025,ONLINE_GATEWAY,TUITION,06/03/2025,236163.75," ",2307014220250603131406,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070501,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124603.25," ",2307050120250603130939,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25080016,2025,ONLINE_GATEWAY,CONFIRMATION_FEE,06/03/2025,10000.0," ",2508001620250603130006,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+25090007,2025,ONLINE_GATEWAY,TUITION,06/03/2025,51246.5," ",2509000720250603125022,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+22070237,2025,ONLINE_GATEWAY,TUITION,06/03/2025,38182.9," ",2207023720250603121740,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070272,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",2307027220250603120651,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070055,2025,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",24070055,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25080033,2025,ONLINE_GATEWAY,TUITION,06/03/2025,50951.4," ",2508003320250603114955,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+24070831,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407083120250603113822,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070423,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407042320250603113718,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070318,2025,ONLINE_GATEWAY,TUITION,06/03/2025,69003.85," ",2207031820250603113050,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070466,2025,ONLINE_GATEWAY,TUITION,06/03/2025,123590.25," ",2307046620250603111353,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25080052,2025,ONLINE_GATEWAY,TUITION,06/03/2025,224053.75," ",25080052,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+23070585,2025,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2307058520250603111207,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070458,2025,ONLINE_GATEWAY,TUITION,06/03/2025,35127.9," ",2207045820250603111336,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070351,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",2207035120250603110516,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070108,2025,ONLINE_GATEWAY,TUITION,06/03/2025,35267.25," ",2307010820250603110410,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070205,2025,ONLINE_GATEWAY,TUITION,06/03/2025,38182.9," ",2207020520250603105854,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070589,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407058920250603105815,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070427,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",2307042720250603105504,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25080014,2025,ONLINE_GATEWAY,TUITION,06/03/2025,6714.0," ",25080014,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+24070766,2025,ONLINE_GATEWAY,TUITION,06/03/2025,66006.4," ",2407076620250603104045,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25070663,2025,ONLINE_GATEWAY,TUITION,06/03/2025,56525.3," ",2507066320250603102504,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070190,2025,ONLINE_GATEWAY,TUITION,06/03/2025,69003.85," ",2207019020250603102109,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070573,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124603.25," ",2307057320250603101832,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25070112,2025,ONLINE_GATEWAY,TUITION,06/03/2025,115106.9," ",2507011220250603101502,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25080045,2025,ONLINE_GATEWAY,TUITION,06/03/2025,21608.5," ",2508004520250603095435,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+25090004,2025,ONLINE_GATEWAY,TUITION,06/03/2025,21603.25," ",2509000420250603095408,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+24070389,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407038920250603094851,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25070923,2025,ONLINE_GATEWAY,TUITION,06/03/2025,115106.9," ",2507092320250603093931,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+24070445,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124885.0," ",2407044520250603093049,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070441,2025,ONLINE_GATEWAY,TUITION,06/03/2025,123817.0," ",2407044120250603092715,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070310,2025,ONLINE_GATEWAY,TUITION,06/03/2025,35493.5," ",2407031020250603092005,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070298,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",2207029820250603090812,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070162,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407016220250603090659,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070461,2025,ONLINE_GATEWAY,TUITION,06/03/2025,68824.85," ",2207046120250603090641,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070082,2025,ONLINE_GATEWAY,TUITION,06/03/2025,69003.85," ",2207008220250603085502,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070463,2025,ONLINE_GATEWAY,TUITION,06/03/2025,4782.0," ",2307046320250603084929,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070494,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250381.2," ",2207049420250603084448,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070202,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124885.0," ",2407020220250603084336,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070184,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",2307018420250603084112,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070144,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124603.25," ",2307014420250603083502,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070232,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",2307023220250603080437,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070350,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",2307035020250603074739,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070487,2025,ONLINE_GATEWAY,TUITION,06/03/2025,69003.85," ",2207048720250603074600,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070426,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250202.2," ",2207042620250603074433,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070080,2025,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2307008020250603072609,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070080,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",2307008020250603071815,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070294,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",2307029420250603033413,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070165,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407016520250603022022,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070468,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407046820250603011158,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070340,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407034020250603001445,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070066,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",2307006620250603224406,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070522,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407052220250603223145,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070199,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",2207019920250603214057,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070542,2025,ONLINE_GATEWAY,TUITION,06/03/2025,123094.25," ",2307054220250603212229,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070672,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124885.0," ",2407067220250603212238,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070110,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",2307011020250603205007,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070136,2025,ONLINE_GATEWAY,TUITION,06/03/2025,248878.2," ",2207013620250603204541,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070362,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",2207036220250603204309,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070515,2025,ONLINE_GATEWAY,TUITION,06/03/2025,237649.75," ",2407051520250603203212,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25080012,2025,ONLINE_GATEWAY,TUITION,06/03/2025,229108.75," ",2508001220250603195224,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+24070721,2025,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2407072120250603190148,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070383,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",2307038320250603185614,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070337,2025,ONLINE_GATEWAY,TUITION,06/03/2025,66006.4," ",2407033720250603173602,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070104,2025,ONLINE_GATEWAY,ADDITIONAL_BOOKS,06/03/2025,5795.0," ",2307010420250603172819,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25070359,2025,ONLINE_GATEWAY,TUITION,06/03/2025,115106.9," ",2507035920250603172258,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070331,2024,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2307033120250603170128,OG_VMC," "," "," "," "," "," ",,Y,,,,,,
+23070236,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",2307023620250603154026,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070007,2025,ONLINE_GATEWAY,TUITION,06/03/2025,123925.0," ",24070007,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070190,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",2307019020250603144610,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070156,2025,ONLINE_GATEWAY,TUITION,06/03/2025,35703.5," ",2407015620250603143828,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070230,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",2307023020250603143721,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070119,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407011920250603140839,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070628,2025,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2407062820250603135803,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25080029,2025,ONLINE_GATEWAY,TUITION,06/03/2025,109830.0," ",2508002920250603134805,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+22070207,2025,ONLINE_GATEWAY,TUITION,06/03/2025,35987.9," ",2207020720250603131900,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070023,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",24070023,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070141,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124603.25," ",23070141,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070241,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",23070241,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070514,2025,ONLINE_GATEWAY,TUITION,06/03/2025,37679.9," ",22070514,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070132,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",22070132,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070198,2025,ONLINE_GATEWAY,TUITION,06/03/2025,375.0," ",22070198,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070106,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",22070106,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070561,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250381.2," ",22070561,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070458,2025,ONLINE_GATEWAY,TUITION,06/03/2025,66006.4," ",24070458,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070285,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238093.75," ",23070285,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070674,2025,ONLINE_GATEWAY,TUITION,06/03/2025,64129.4," ",24070674,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070032,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",23070032,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070169,2025,ONLINE_GATEWAY,TUITION,06/03/2025,5013.0," ",24070169,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23080002,2025,ONLINE_GATEWAY,TUITION,06/03/2025,130816.7," ",23080002,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25090020,2025,ONLINE_GATEWAY,TUITION,06/03/2025,224053.75," ",25090020,BDO," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+23070109,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",23070109,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070424,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124386.0," ",24070424,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070322,2025,ONLINE_GATEWAY,TUITION,06/03/2025,118912.0," ",24070322,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070485,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124885.0," ",24070485,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070204,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239.0," ",24070204,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25080021,2025,ONLINE_GATEWAY,TUITION,06/03/2025,224053.75," ",25080021,BDO," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+23070044,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124603.25," ",23070044,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070235,2025,ONLINE_GATEWAY,TUITION,06/03/2025,36277.25," ",23070235,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070479,2025,ONLINE_GATEWAY,TUITION,06/03/2025,130313.7," ",2207047920250603131638,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070265,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250318.2," ",2207026520250603125451,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25080016,2025,ONLINE_GATEWAY,CONFIRMATION_FEE,06/03/2025,10000.0," ",2508001620250603124920,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+23070346,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",2307034620250603122618,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070338,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238148.75," ",2407033820250603123617,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070511,2025,ONLINE_GATEWAY,TUITION,06/03/2025,246853.2," ",2207051120250603121206,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070360,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",2207036020250603120242,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25070626,2025,ONLINE_GATEWAY,ADDITIONAL_BOOKS,06/03/2025,50.0," ",2507062620250603115055,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070100,2024,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2407010020250603114734,OG_VMC," "," "," "," "," "," ",,Y,,,,,,
+25080049,2025,ONLINE_GATEWAY,TUITION,06/03/2025,21608.5," ",2508004920250603114415,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+22070299,2025,ONLINE_GATEWAY,TUITION,06/03/2025,130313.7," ",2207029920250603113117,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070184,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",2207018420250603110909,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070068,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124885.0," ",2407006820250603105942,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25070674,2025,ONLINE_GATEWAY,TUITION,06/03/2025,229040.65," ",2507067420250603101720,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25070602,2025,ONLINE_GATEWAY,TUITION,06/03/2025,56525.3," ",2507060220250603094707,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25090023,2025,ONLINE_GATEWAY,TUITION,06/03/2025,51246.5," ",2509002320250603093711,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+22070399,2025,ONLINE_GATEWAY,TUITION,06/03/2025,244828.2," ",2207039920250603092529,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070043,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250318.2," ",2207004320250603091407,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070179,2025,ONLINE_GATEWAY,TUITION,06/03/2025,239108.75," ",2407017920250603085917,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070256,2025,ONLINE_GATEWAY,TUITION,06/03/2025,124386.0," ",2407025620250603084728,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070540,2025,ONLINE_GATEWAY,TUITION,06/03/2025,249821.2," ",2207054020250603084010,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070043,2024,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2307004320250603083644,OG_VMC," "," "," "," "," "," ",,Y,,,,,,
+24070652,2025,ONLINE_GATEWAY,TUITION,06/03/2025,66006.4," ",2407065220250603082440,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070043,2024,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2307004320250603081624,OG_VMC," "," "," "," "," "," ",,Y,,,,,,
+24070594,2025,ONLINE_GATEWAY,TUITION,06/03/2025,236578.75," ",2407059420250603075438,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25070681,2025,ONLINE_GATEWAY,TUITION,06/03/2025,115106.9," ",2507068120250603074853,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070240,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",2307024020250603073219,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070198,2024,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2407019820250603064125,OG_VMC," "," "," "," "," "," ",,Y,,,,,,
+24070198,2024,ONLINE_GATEWAY,TUITION,06/03/2025,10000.0," ",2407019820250603063535,OG_VMC," "," "," "," "," "," ",,Y,,,,,,
+22070140,2025,ONLINE_GATEWAY,TUITION,06/03/2025,38044.9," ",2207014020250603053823,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070484,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",2307048420250603003733,OG_VMC," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070147,2025,ONLINE_GATEWAY,TUITION,06/03/2025,68839.45," ",24070147,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070406,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250318.2," ",22070406,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070812,2025,ONLINE_GATEWAY,CONFIRMATION_FEE,06/03/2025,10000.0," ",24070812,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No confirmation fee payable found for student#: 24070812
+23070469,2025,ONLINE_GATEWAY,TUITION,06/03/2025,36280.25," ",23070469,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070221,2025,ONLINE_GATEWAY,TUITION,06/03/2025,66006.4," ",24070221,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+25070920,2025,ONLINE_GATEWAY,TUITION,06/03/2025,229040.65," ",25070920,BDO," "," "," "," "," "," ",,Y,,,,,Level 2 Exception,Student not found
+24070682,2025,ONLINE_GATEWAY,TUITION,06/03/2025,66006.4," ",24070682,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070079,2025,ONLINE_GATEWAY,TUITION,06/03/2025,63010.85," ",22070079,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070183,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",22070183,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070136,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238730.75," ",23070136,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070376,2025,ONLINE_GATEWAY,TUITION,06/03/2025,238148.75," ",24070376,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+22070398,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250642.2," ",22070398,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24070486,2025,ONLINE_GATEWAY,TUITION,06/03/2025,36663.5," ",24070486,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070593,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",23070593,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+23070082,2025,ONLINE_GATEWAY,TUITION,06/03/2025,65923.5," ",23070082,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026
+24090007,2025,ONLINE_GATEWAY,TUITION,06/03/2025,250821.2," ",24090007,BDO," "," "," "," "," "," ",,Y,,,,,Level 1 Exception,No assessment found for SY 2025 - 2026

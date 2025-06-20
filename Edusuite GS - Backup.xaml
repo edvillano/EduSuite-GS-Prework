@@ -156,7 +156,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1247,16236" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1076,13016" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_PaymentFor" />
       <Variable x:TypeArguments="x:String" Name="teststring" />
@@ -215,20 +215,20 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:KillProcess>
-    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" sap2010:Annotation.AnnotationText="Deployment notes:&#xA;&#xA;1. Remove hardcoded default value for argument&#xA;&#xA;in_ConfgFilePath&#xA;in_userid&#xA;&#xA;2. Invoke subprocess and pass Config filepath in in_ConfigFilePath argument&#xA;3. in_userid = userid from main" DisplayName="Read Config File Contents" sap:VirtualizedContainerService.HintSize="833,1375" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" sap2010:Annotation.AnnotationText="Deployment notes:&#xA;&#xA;1. Remove hardcoded default value for argument&#xA;&#xA;in_ConfgFilePath&#xA;in_userid&#xA;&#xA;2. Invoke subprocess and pass Config filepath in in_ConfigFilePath argument&#xA;3. in_userid = userid from main" DisplayName="Read Config File Contents" sap:VirtualizedContainerService.HintSize="833,1295" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
       <ueab:ExcelProcessScopeX.Body>
         <ActivityAction x:TypeArguments="ui:IExcelProcess">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Read Config Sheets" sap:VirtualizedContainerService.HintSize="546,1069" sap2010:WorkflowViewState.IdRef="Sequence_56">
+          <Sequence DisplayName="Read Config Sheets" sap:VirtualizedContainerService.HintSize="546,1029" sap2010:WorkflowViewState.IdRef="Sequence_56">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,1009" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" SensitivityOperation="None" UseTemplate="True" WorkbookPath="[in_ConfigFilePath]">
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="512,969" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" SensitivityOperation="None" UseTemplate="True" WorkbookPath="[in_ConfigFilePath]">
               <ueab:ExcelApplicationCard.Body>
                 <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                   <ActivityAction.Argument>
@@ -747,7 +747,7 @@
         </Sequence>
       </If.Else>
     </If>
-    <uix:NApplicationCard CloseMode="IfOpenedByAppBrowser" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="833,13066" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="1587b0e5-0165-422c-b123-8e202d670e6c" WindowResize="Maximize">
+    <uix:NApplicationCard CloseMode="IfOpenedByAppBrowser" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="833,9926" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="1587b0e5-0165-422c-b123-8e202d670e6c" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -758,7 +758,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence sap2010:Annotation.AnnotationText="For each input in AGSInput file, validate payment details" DisplayName="Login if saved else not " sap:VirtualizedContainerService.HintSize="799,12826" sap2010:WorkflowViewState.IdRef="Sequence_30">
+          <Sequence sap2010:Annotation.AnnotationText="For each input in AGSInput file, validate payment details" DisplayName="Login if saved else not " sap:VirtualizedContainerService.HintSize="799,9686" sap2010:WorkflowViewState.IdRef="Sequence_30">
             <Sequence.Variables>
               <Variable x:TypeArguments="sd:DataTable" Name="dtPaymentsVerif" />
               <Variable x:TypeArguments="x:Boolean" Name="TableLoaded" />
@@ -1547,7 +1547,7 @@
                 </ui:ForEachRow.Body>
               </ui:ForEachRow>
             </Sequence>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[AGSOutput]" DisplayName="For Each Row in Data Table - Investigate one by one in EduSuite" sap:VirtualizedContainerService.HintSize="765,3229" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[AGSOutput]" DisplayName="For Each Row in Data Table - Investigate one by one in EduSuite" sap:VirtualizedContainerService.HintSize="657,3212" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
@@ -1558,14 +1558,14 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="763,3049" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="655,3064" sap2010:WorkflowViewState.IdRef="Sequence_32">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <If Condition="[CurrentRow(1).ToString.Trim &lt;&gt; &quot;0&quot;]" DisplayName="If already validated in Payments Verification table, no need to further identify, skip trx" sap:VirtualizedContainerService.HintSize="729,2989" sap2010:WorkflowViewState.IdRef="If_44">
+                    <If Condition="[CurrentRow(1).ToString.Trim &lt;&gt; &quot;0&quot;]" DisplayName="If already validated in Payments Verification table, no need to further identify, skip trx" sap:VirtualizedContainerService.HintSize="621,3004" sap2010:WorkflowViewState.IdRef="If_44">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1573,7 +1573,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="727,25" sap2010:WorkflowViewState.IdRef="Sequence_165">
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="619,25" sap2010:WorkflowViewState.IdRef="Sequence_165">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1591,14 +1591,14 @@
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="727,2835" sap2010:WorkflowViewState.IdRef="Sequence_166">
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="619,2850" sap2010:WorkflowViewState.IdRef="Sequence_166">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               <x:Boolean x:Key="IsPinned">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <Sequence sap2010:Annotation.AnnotationText="Determine what section has balance&#xA;" DisplayName="Determine if with Balance" sap:VirtualizedContainerService.HintSize="693,2775" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                          <Sequence sap2010:Annotation.AnnotationText="Determine what section has balance&#xA;" DisplayName="Determine if with Balance" sap:VirtualizedContainerService.HintSize="585,2790" sap2010:WorkflowViewState.IdRef="Sequence_1">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:String" Name="studentname" />
                               <Variable x:TypeArguments="x:String" Name="StudentSummary" />
@@ -1641,7 +1641,7 @@
                                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'FINANCE/Payments'" sap:VirtualizedContainerService.HintSize="659,57" sap2010:WorkflowViewState.IdRef="Click_8" KeyModifiers="None" MouseButton="BTN_LEFT">
+                            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'FINANCE/Payments'" sap:VirtualizedContainerService.HintSize="551,57" sap2010:WorkflowViewState.IdRef="Click_8" KeyModifiers="None" MouseButton="BTN_LEFT">
                               <ui:Click.CursorPosition>
                                 <ui:CursorPosition Position="Center">
                                   <ui:CursorPosition.OffsetX>
@@ -1663,7 +1663,7 @@
                                 </ui:Target>
                               </ui:Click.Target>
                             </ui:Click>
-                            <Assign DisplayName="Get Student ID in Unit Report" sap:VirtualizedContainerService.HintSize="659,57" sap2010:WorkflowViewState.IdRef="Assign_8">
+                            <Assign DisplayName="Get Student ID in Unit Report" sap:VirtualizedContainerService.HintSize="551,57" sap2010:WorkflowViewState.IdRef="Assign_8">
                               <Assign.To>
                                 <OutArgument x:TypeArguments="x:String">[StudentID]</OutArgument>
                               </Assign.To>
@@ -1671,7 +1671,7 @@
                                 <InArgument x:TypeArguments="x:String">[CurrentRow("Student Number").ToString.Trim]</InArgument>
                               </Assign.Value>
                             </Assign>
-                            <Assign DisplayName="Get Amount in Unit Report" sap:VirtualizedContainerService.HintSize="659,57" sap2010:WorkflowViewState.IdRef="Assign_12">
+                            <Assign DisplayName="Get Amount in Unit Report" sap:VirtualizedContainerService.HintSize="551,57" sap2010:WorkflowViewState.IdRef="Assign_12">
                               <Assign.To>
                                 <OutArgument x:TypeArguments="x:String">[BRAmount]</OutArgument>
                               </Assign.To>
@@ -1679,7 +1679,7 @@
                                 <InArgument x:TypeArguments="x:String">[CurrentRow("Amount").ToString.Trim]</InArgument>
                               </Assign.Value>
                             </Assign>
-                            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="659,57" sap2010:WorkflowViewState.IdRef="CommentOut_15">
+                            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="551,57" sap2010:WorkflowViewState.IdRef="CommentOut_15">
                               <ui:CommentOut.Body>
                                 <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="513,261" sap2010:WorkflowViewState.IdRef="Sequence_33">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -1709,7 +1709,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:CommentOut>
-                            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="659,57" sap2010:WorkflowViewState.IdRef="Click_9" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="551,57" sap2010:WorkflowViewState.IdRef="Click_9" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                               <ui:Click.CursorPosition>
                                 <ui:CursorPosition Position="Center">
                                   <ui:CursorPosition.OffsetX>
@@ -1724,7 +1724,7 @@
                                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="685468cd-b4ab-46df-afc1-5f79f4c97141" InformativeScreenshot="fe4f40322958c9537844be8c95cc95ea" Selector="&lt;webctrl class='ng-input' tag='DIV' /&gt;" TimeoutMS="10000" WaitForReady="COMPLETE" />
                               </ui:Click.Target>
                             </ui:Click>
-                            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type into Search Field" EmptyField="True" sap:VirtualizedContainerService.HintSize="659,57" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="[StudentID]">
+                            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type into Search Field" EmptyField="True" sap:VirtualizedContainerService.HintSize="551,57" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="[StudentID]">
                               <ui:TypeInto.Target>
                                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="08e63b86-ccb6-4aa6-bbe1-4dffd59f3d41" InformativeScreenshot="7cff857c00c2d9cca19f7986b3950d98" Selector="&lt;webctrl tag='DIV' innertext='Select a student*' /&gt;&lt;webctrl tag='INPUT' /&gt;" WaitForReady="COMPLETE">
                                   <ui:Target.TimeoutMS>
@@ -1733,7 +1733,7 @@
                                 </ui:Target>
                               </ui:TypeInto.Target>
                             </ui:TypeInto>
-                            <ui:UiElementExists DisplayName="If student ID does not appear at the bottom" Exists="[StudentIDExists]" sap:VirtualizedContainerService.HintSize="659,57" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
+                            <ui:UiElementExists DisplayName="If student ID does not appear at the bottom" Exists="[StudentIDExists]" sap:VirtualizedContainerService.HintSize="551,57" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
                               <ui:UiElementExists.Target>
                                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="80792300-bf05-4a26-9333-142499f5d00f" InformativeScreenshot="a140d924598811724ae99dc9e2d73d37" Selector="[string.Format(&quot;&lt;webctrl tag='DIV' innertext='{0}' /&gt;&quot;, StudentID)]" WaitForReady="COMPLETE">
                                   <ui:Target.TimeoutMS>
@@ -1742,7 +1742,7 @@
                                 </ui:Target>
                               </ui:UiElementExists.Target>
                             </ui:UiElementExists>
-                            <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[StudentIDExists = False]" DisplayName="While" sap:VirtualizedContainerService.HintSize="659,57" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2" MaxIterations="2">
+                            <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[StudentIDExists = False]" DisplayName="While" sap:VirtualizedContainerService.HintSize="551,57" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2" MaxIterations="2">
                               <ui:InterruptibleWhile.Body>
                                 <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,312" sap2010:WorkflowViewState.IdRef="Sequence_75">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -1763,7 +1763,7 @@
                                 </Sequence>
                               </ui:InterruptibleWhile.Body>
                             </ui:InterruptibleWhile>
-                            <If Condition="[StudentIDExists]" DisplayName="Check if Student ID Exists" sap:VirtualizedContainerService.HintSize="659,2194" sap2010:WorkflowViewState.IdRef="If_6">
+                            <If Condition="[StudentIDExists]" DisplayName="Check if Student ID Exists" sap:VirtualizedContainerService.HintSize="551,2209" sap2010:WorkflowViewState.IdRef="If_6">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1771,7 +1771,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                               <If.Then>
-                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="657,1893" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="549,1893" sap2010:WorkflowViewState.IdRef="Sequence_37">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="ui:UiElement" Name="outputElement" />
                                     <Variable x:TypeArguments="x:Boolean" Name="StudentDetailsExist" />
@@ -1784,7 +1784,7 @@
                                       <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Student ID'" sap:VirtualizedContainerService.HintSize="623,57" sap2010:WorkflowViewState.IdRef="Click_10" KeyModifiers="None" MouseButton="BTN_LEFT">
+                                  <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Student ID'" sap:VirtualizedContainerService.HintSize="515,57" sap2010:WorkflowViewState.IdRef="Click_10" KeyModifiers="None" MouseButton="BTN_LEFT">
                                     <ui:Click.CursorPosition>
                                       <ui:CursorPosition Position="Center">
                                         <ui:CursorPosition.OffsetX>
@@ -1803,13 +1803,13 @@
                                       </ui:Target>
                                     </ui:Click.Target>
                                   </ui:Click>
-                                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="623,57" sap2010:WorkflowViewState.IdRef="Delay_2" />
-                                  <uix:NGetText DisplayName="Get Student Payment Details" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="623,57" sap2010:WorkflowViewState.IdRef="NGetText_5" OutUiElement="[outputElement]" ScopeIdentifier="1587b0e5-0165-422c-b123-8e202d670e6c" TextString="[StudentSummary]" Version="V4">
+                                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="515,57" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                                  <uix:NGetText DisplayName="Get Student Payment Details" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="515,57" sap2010:WorkflowViewState.IdRef="NGetText_5" OutUiElement="[outputElement]" ScopeIdentifier="1587b0e5-0165-422c-b123-8e202d670e6c" TextString="[StudentSummary]" Version="V4">
                                     <uix:NGetText.Target>
                                       <uix:TargetAnchorable BrowserURL="ags-uat.edusuite.asia/payments/0e390cdf-cb45-441a-a5a3-2475ab736a94" ContentHash="jsH7ImqOWEu-H1LWOyhJ8A" DesignTimeRectangle="414, 152, 300, 864" DesignTimeScaleFactor="1" ElementType="List" FullSelectorArgument="&lt;webctrl tag='UL' innertext='*Grade*' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='UL' innertext='*Grade*' type='' class='' aaname='' /&gt;" Guid="ae671a2b-1b9b-4749-8f14-8ca44a3606b6" InformativeScreenshot="0062c5886c1106200436cd57530c824b.png" Reference="CSHGtrUFN0ievs-qqeGFJA/RCJ3nnophUSmFBzs6Oeddw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ATENEO | Edusuite K12' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Visible" WaitForReadyArgument="Complete" />
                                     </uix:NGetText.Target>
                                   </uix:NGetText>
-                                  <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[Not (StudentSummary.Contains(&quot;View Assessment&quot;) or StudentSummary.Contains(&quot;Assessment&quot;))]" DisplayName="While" sap:VirtualizedContainerService.HintSize="623,57" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_9" MaxIterations="10">
+                                  <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[Not (StudentSummary.Contains(&quot;View Assessment&quot;) or StudentSummary.Contains(&quot;Assessment&quot;))]" DisplayName="While" sap:VirtualizedContainerService.HintSize="515,57" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_9" MaxIterations="10">
                                     <ui:InterruptibleWhile.Body>
                                       <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,484" sap2010:WorkflowViewState.IdRef="Sequence_121">
                                         <sap:WorkflowViewStateService.ViewState>
@@ -1827,12 +1827,12 @@
                                       </Sequence>
                                     </ui:InterruptibleWhile.Body>
                                   </ui:InterruptibleWhile>
-                                  <uix:NGetText DisplayName="Get Student Payment Details" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="623,57" sap2010:WorkflowViewState.IdRef="NGetText_14" ScopeIdentifier="1587b0e5-0165-422c-b123-8e202d670e6c" TextString="[StudentSummary]" Version="V4">
+                                  <uix:NGetText DisplayName="Get Student Payment Details" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="515,57" sap2010:WorkflowViewState.IdRef="NGetText_14" ScopeIdentifier="1587b0e5-0165-422c-b123-8e202d670e6c" TextString="[StudentSummary]" Version="V4">
                                     <uix:NGetText.Target>
                                       <uix:TargetAnchorable BrowserURL="ags-uat.edusuite.asia/payments/0e390cdf-cb45-441a-a5a3-2475ab736a94" ContentHash="jsH7ImqOWEu-H1LWOyhJ8A" DesignTimeRectangle="414, 152, 300, 864" DesignTimeScaleFactor="1" ElementType="List" FullSelectorArgument="&lt;webctrl tag='UL' innertext='*Grade*' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='UL' innertext='*Grade*' type='' class='' aaname='' /&gt;" Guid="ae671a2b-1b9b-4749-8f14-8ca44a3606b6" InformativeScreenshot="0062c5886c1106200436cd57530c824b.png" Reference="CSHGtrUFN0ievs-qqeGFJA/RCJ3nnophUSmFBzs6Oeddw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ATENEO | Edusuite K12' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Visible" WaitForReadyArgument="Complete" />
                                     </uix:NGetText.Target>
                                   </uix:NGetText>
-                                  <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="623,57" sap2010:WorkflowViewState.IdRef="MultipleAssign_44">
+                                  <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="515,57" sap2010:WorkflowViewState.IdRef="MultipleAssign_44">
                                     <ui:MultipleAssign.AssignOperations>
                                       <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                                         <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_220">
@@ -1854,7 +1854,7 @@
                                       </scg:List>
                                     </ui:MultipleAssign.AssignOperations>
                                   </ui:MultipleAssign>
-                                  <If Condition="[StudentSummary.contains(&quot;Select a student&quot;)]" DisplayName="If &quot;Select a student text appears&quot;" sap:VirtualizedContainerService.HintSize="623,1491" sap2010:WorkflowViewState.IdRef="If_30">
+                                  <If Condition="[StudentSummary.contains(&quot;Select a student&quot;)]" DisplayName="If &quot;Select a student text appears&quot;" sap:VirtualizedContainerService.HintSize="515,1491" sap2010:WorkflowViewState.IdRef="If_30">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1862,15 +1862,15 @@
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                     <If.Then>
-                                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="621,437" sap2010:WorkflowViewState.IdRef="Sequence_125">
+                                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="513,437" sap2010:WorkflowViewState.IdRef="Sequence_125">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="587,57" sap2010:WorkflowViewState.IdRef="WriteLine_21" Text="No Assessment, set default values, for exception" />
-                                        <ui:MultipleAssign sap2010:Annotation.AnnotationText="Assign RPA remarks&#xA;Assign Exception&#xA;Asign Starting Year - Default Value obtained from Config File " DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="587,320" sap2010:WorkflowViewState.IdRef="MultipleAssign_42">
+                                        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="479,57" sap2010:WorkflowViewState.IdRef="WriteLine_21" Text="No Assessment, set default values, for exception" />
+                                        <ui:MultipleAssign sap2010:Annotation.AnnotationText="Assign RPA remarks&#xA;Assign Exception&#xA;Asign Starting Year - Default Value obtained from Config File " DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="479,320" sap2010:WorkflowViewState.IdRef="MultipleAssign_42">
                                           <ui:MultipleAssign.AssignOperations>
                                             <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
                                               <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_206">
@@ -1929,14 +1929,14 @@
                                       </Sequence>
                                     </If.Then>
                                     <If.Else>
-                                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="621,925" sap2010:WorkflowViewState.IdRef="Sequence_126">
+                                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="513,925" sap2010:WorkflowViewState.IdRef="Sequence_126">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:MultipleAssign DisplayName="Get Student Payment Details sn,grade,payment" sap:VirtualizedContainerService.HintSize="587,489" sap2010:WorkflowViewState.IdRef="MultipleAssign_15">
+                                        <ui:MultipleAssign DisplayName="Get Student Payment Details sn,grade,payment" sap:VirtualizedContainerService.HintSize="479,489" sap2010:WorkflowViewState.IdRef="MultipleAssign_15">
                                           <ui:MultipleAssign.AssignOperations>
                                             <scg:List x:TypeArguments="ui:AssignOperation" Capacity="32">
                                               <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_83">
@@ -2044,7 +2044,7 @@
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                         </ui:MultipleAssign>
-                                        <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="Check which section has Balance" sap:VirtualizedContainerService.HintSize="587,57" sap2010:WorkflowViewState.IdRef="ForEach`1_9" Values="[Sections]">
+                                        <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="Check which section has Balance" sap:VirtualizedContainerService.HintSize="479,57" sap2010:WorkflowViewState.IdRef="ForEach`1_9" Values="[Sections]">
                                           <ui:ForEach.Body>
                                             <ActivityAction x:TypeArguments="x:String">
                                               <ActivityAction.Argument>
@@ -2220,8 +2220,8 @@
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                         </ui:ForEach>
-                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="587,57" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Trace" Message="[&quot;Tuition: &quot; &amp; tuitionexist &amp; environment.NewLine &amp; &quot;Confirmation Fee: &quot; &amp; confirmationfeeexist &amp; environment.NewLine &amp;  &quot;Textbook: &quot; &amp; textbookexist]" />
-                                        <If Condition="[Results IsNot Nothing AndAlso Results.Count &gt; 1]" DisplayName="If multiple results" sap:VirtualizedContainerService.HintSize="587,262" sap2010:WorkflowViewState.IdRef="If_36">
+                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,57" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Trace" Message="[&quot;Tuition: &quot; &amp; tuitionexist &amp; environment.NewLine &amp; &quot;Confirmation Fee: &quot; &amp; confirmationfeeexist &amp; environment.NewLine &amp;  &quot;Textbook: &quot; &amp; textbookexist]" />
+                                        <If Condition="[Results IsNot Nothing AndAlso Results.Count &gt; 1]" DisplayName="If multiple results" sap:VirtualizedContainerService.HintSize="479,262" sap2010:WorkflowViewState.IdRef="If_36">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -3017,7 +3017,7 @@
                                                   <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <If Condition="[Results IsNot Nothing AndAlso Results.Count = 1]" DisplayName="If just one match" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="If_31">
+                                              <If Condition="[Results IsNot Nothing AndAlso Results.Count = 1]" DisplayName="If just one match" sap:VirtualizedContainerService.HintSize="551,1840" sap2010:WorkflowViewState.IdRef="If_31">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3273,8 +3273,13 @@
                                                                 </ui:InvokeWorkflowFile>
                                                                 <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="CommentOut_33">
                                                                   <ui:CommentOut.Body>
-                                                                    <Sequence DisplayName="Ignored Activities" sap2010:WorkflowViewState.IdRef="Sequence_312">
-                                                                      <If Condition="[Section = &quot;Summaries&quot; And AmountinSection &gt;= 0]" DisplayName="If processing Tuition, check if AMT is enough for UPON REG amount" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="If_88">
+                                                                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_312">
+                                                                      <sap:WorkflowViewStateService.ViewState>
+                                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                        </scg:Dictionary>
+                                                                      </sap:WorkflowViewStateService.ViewState>
+                                                                      <If Condition="[Section = &quot;Summaries&quot; And AmountinSection &gt;= 0]" DisplayName="If processing Tuition, check if AMT is enough for UPON REG amount" sap:VirtualizedContainerService.HintSize="486,303" sap2010:WorkflowViewState.IdRef="If_88">
                                                                         <sap:WorkflowViewStateService.ViewState>
                                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3296,7 +3301,7 @@
                                                                                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                                                               </scg:Dictionary>
                                                                             </sap:WorkflowViewStateService.ViewState>
-                                                                            <Sequence DisplayName="Get Upon Reg amount and Payments Made" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_307">
+                                                                            <Sequence DisplayName="Get Upon Reg amount and Payments Made" sap:VirtualizedContainerService.HintSize="484,783" sap2010:WorkflowViewState.IdRef="Sequence_307">
                                                                               <sap:WorkflowViewStateService.ViewState>
                                                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3420,7 +3425,7 @@
                                                                                   </scg:Dictionary>
                                                                                 </sap:WorkflowViewStateService.ViewState>
                                                                               </Assign>
-                                                                              <Sequence sap2010:Annotation.AnnotationText="If Balance found in School Year != to Current School Year, while Enrollment Period = &quot;Y&quot; &#xA;    RPA prompts, &quot;Amount in Bank Report: [amount]. Balance of [amt] found in SY: [sy]. Please enter which school year to assign the amount.&#xA;&#xA;Just enter the starting year of the SY to assign the amount to.&#xA;Ex. SY 2024-2025, just enter 2024&#xA;&#xA;&#xA;Else, Enrollment Period = N, as is checking " DisplayName="If Enrollment Period " sap:VirtualizedContainerService.HintSize="450,210" sap2010:WorkflowViewState.IdRef="Sequence_306">
+                                                                              <Sequence sap2010:Annotation.AnnotationText="If Balance found in School Year != to Current School Year, while Enrollment Period = &quot;Y&quot; &#xA;    RPA prompts, &quot;Amount in Bank Report: [amount]. Balance of [amt] found in SY: [sy]. Please enter which school year to assign the amount.&#xA;&#xA;Just enter the starting year of the SY to assign the amount to.&#xA;Ex. SY 2024-2025, just enter 2024&#xA;&#xA;&#xA;Else, Enrollment Period = N, as is checking " DisplayName="If Enrollment Period " sap:VirtualizedContainerService.HintSize="450,477" sap2010:WorkflowViewState.IdRef="Sequence_306">
                                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3428,7 +3433,7 @@
                                                                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                                                   </scg:Dictionary>
                                                                                 </sap:WorkflowViewStateService.ViewState>
-                                                                                <If sap2010:Annotation.AnnotationText="Logic is just:&#xA;&#xA;If Enrollment period in Config = Y and SY in Config &gt; SY in section where balance found (prev sem),&#xA;   Then RPA will prioritize payment current sem.&#xA;&#xA;&#xA;exceptions will fall when uploading file in EduSuite&#xA;" Condition="[bolEnrollmentPeriod.ToString.ToUpper = &quot;Y&quot; and (ConfigStartYear &gt; StartingYear)]" DisplayName="If Enrollment period " sap:VirtualizedContainerService.HintSize="416,255" sap2010:WorkflowViewState.IdRef="If_93">
+                                                                                <If sap2010:Annotation.AnnotationText="Logic is just:&#xA;&#xA;If Enrollment period in Config = Y and SY in Config &gt; SY in section where balance found (prev sem),&#xA;   Then RPA will prioritize payment current sem.&#xA;&#xA;&#xA;exceptions will fall when uploading file in EduSuite&#xA;" Condition="[bolEnrollmentPeriod.ToString.ToUpper = &quot;Y&quot; and (ConfigStartYear &gt; StartingYear)]" DisplayName="If Enrollment period " sap:VirtualizedContainerService.HintSize="587,2404" sap2010:WorkflowViewState.IdRef="If_93">
                                                                                   <sap:WorkflowViewStateService.ViewState>
                                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                       <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -3517,7 +3522,7 @@
                                                                                         </scg:Dictionary>
                                                                                       </sap:WorkflowViewStateService.ViewState>
                                                                                       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="551,57" sap2010:WorkflowViewState.IdRef="LogMessage_27" Level="Info" Message="[studentname + &quot; has balance of: &quot; + AmountinSection.ToString + &quot; + in School Year:&quot; + StartingYear.ToString + &quot;-&quot; + (CInt(StartingYear) + 1).ToString]" />
-                                                                                      <If sap2010:Annotation.AnnotationText="Student Payment matches upon registration amount &#xA;" Condition="[( AmountinUR =   decUponRegistration) Or  ( AmountinUR &gt;  decUponRegistration) Or&#xA;   (   AmountinUR -   decUponRegistration &lt;= 1000 And  decUponRegistration &lt;   AmountinUR)]" DisplayName="If Unit Report payment = Upon Registration " sap:VirtualizedContainerService.HintSize="551,1739" sap2010:WorkflowViewState.IdRef="If_92">
+                                                                                      <If sap2010:Annotation.AnnotationText="Student Payment matches upon registration amount &#xA;" Condition="[( AmountinUR =   decUponRegistration) Or  ( AmountinUR &gt;  decUponRegistration) Or&#xD;&#xA;   (   AmountinUR -   decUponRegistration &lt;= 100 And  decUponRegistration &lt;   AmountinUR)]" DisplayName="If Unit Report payment = Upon Registration " sap:VirtualizedContainerService.HintSize="551,1739" sap2010:WorkflowViewState.IdRef="If_92">
                                                                                         <sap:WorkflowViewStateService.ViewState>
                                                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -4477,7 +4482,7 @@
                                 </Sequence>
                               </If.Then>
                               <If.Else>
-                                <Sequence sap2010:Annotation.AnnotationText="(From row In dt_RunConfig.AsEnumerable()&#xA; Where row(&quot;Bank Report Download and Upload&quot;).ToString.Trim = &quot;EduSuite GS prework Unit Reports&quot;&#xA; Let rawText = row(&quot;Date From&quot;).ToString.Trim&#xA; Select Regex.Match(rawText, &quot;(?&lt;=S\.Y\.\s*)\d{4}&quot;).Value).FirstOrDefault()&#xA;&#xA;Let rawText = row(&quot;Date From&quot;).ToString.Trim — extracts the raw &quot;Date From&quot; string.&#xA;Regex.Match(...).Value — pulls the year 2024 from something like S.Y. 2024 - 2025 (Current).&#xA;&#xA;Change regex if there ris change in date time formatting in Config file" DisplayName="Else" sap:VirtualizedContainerService.HintSize="657,172" sap2010:WorkflowViewState.IdRef="Sequence_38">
+                                <Sequence sap2010:Annotation.AnnotationText="(From row In dt_RunConfig.AsEnumerable()&#xA; Where row(&quot;Bank Report Download and Upload&quot;).ToString.Trim = &quot;EduSuite GS prework Unit Reports&quot;&#xA; Let rawText = row(&quot;Date From&quot;).ToString.Trim&#xA; Select Regex.Match(rawText, &quot;(?&lt;=S\.Y\.\s*)\d{4}&quot;).Value).FirstOrDefault()&#xA;&#xA;Let rawText = row(&quot;Date From&quot;).ToString.Trim — extracts the raw &quot;Date From&quot; string.&#xA;Regex.Match(...).Value — pulls the year 2024 from something like S.Y. 2024 - 2025 (Current).&#xA;&#xA;Change regex if there ris change in date time formatting in Config file" DisplayName="Else" sap:VirtualizedContainerService.HintSize="549,187" sap2010:WorkflowViewState.IdRef="Sequence_38">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>

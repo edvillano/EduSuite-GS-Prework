@@ -1,0 +1,2 @@
+﻿Student Number,School Year,Payment Mode,Purpose of Payment,Date of Payment,Amount,Remarks,Transaction Number,Bank Name,Bank Branch,Check Number,Issuing Bank,Card Number,Signatory in Letter,Date to Pay,In Returned Checks,Double Payment,RPA Remarks,RPA Status,Student Name,Grade,Upload Exception Category,Upload Exception Remarks
+4210001,2022,ONLINE_GATEWAY,TUITION,03/25/2025,600," ",4220232,MBTC,,,,,,,,,Identified as for Tuition,Exception: 2022 SY identified is two years less than the Enrollment SY stated in Config File. SY: 2025,"ABAD, GABRIEL ANTONIO BRINGINO",4,,
